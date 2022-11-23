@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 /*-------------------------------------
  * customize material design icon sizes 
  *-------------------------------------
@@ -10,3 +10,35 @@
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
 .material-icons.md-48 { font-size: 48px; }
+
+/*
+* --------------------------------------------
+* These are some styles that I am customizing 
+* to over-ride the default bootstrap ones
+*---------------------------------------------
+*/
+.bg-info {
+    background-color: #3C6E71 !important;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF
+}
+
+.btn-primary {
+    color: #284B63;
+    font-size: 150%;
+    background-color: #D9D9D9;
+    border-color: #284B63;
+    border-width: thick
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.navbar-brand{
+    font-family: 'Raleway', cursive;
+    font-size: 2.25rem;
+}
+
